@@ -1,0 +1,15 @@
+{
+  "testRegex": "((\\.|/*.)(test|spec))\\.js?$",
+  "collectCoverage": true,
+  "collectCoverageFrom": [
+    "<rootDir>/app/**/*.js",
+    "!<rootDir>/app/**/index.js",
+    "!<rootDir>/app/**/*.mock.js",
+    "!<rootDir>/app/**/*.module.js",
+    "!<rootDir>/app/**/*.spec.js",
+    "!<rootDir>/app/**/*.test.js",
+    "!<rootDir>/app/**/*.css",
+    "!<rootDir>/app/**/*.d.js"
+  ],
+  "coverageReporters": ["text", "json"]
+}

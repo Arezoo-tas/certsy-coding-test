@@ -1,0 +1,21 @@
+{
+  "name": "certsy-coding-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start:largeFile": "node index.js ../assets/commandsLarge.txt",
+    "start:file": "node index.js ../assets/commands.txt",
+    "test": "jest",
+    "test:dev": "jest --watchAll",
+    "test:coverage": "jest --coverage"
+  },
+  "author": "Arezoo Taslimi",
+  "license": "unlicensed",
+  "devDependencies": {
+    "jest": "^25.2.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.15"
+  }
+}
